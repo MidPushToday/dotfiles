@@ -1,0 +1,99 @@
+#if __has_include(".extend.Xresources")
+#include ".extend.Xresources"
+#endif
+
+! ^ The above lines are no comments!
+! Leave them as they are if a file ~/.extend.Xresources is being used on your system.
+! config can be added there or also here below.
+! For comments use "!"
+
+
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.autohint: false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
+
+
+XTerm*background: #16A085
+XTerm*foreground: #002b36
+! XTerm*pointerColor: #16A085
+! XTerm*faceSize: 13
+XTerm*termName: Xterm-256Color
+XTerm*utf8: True
+XTerm*locale: True
+XTerm*inputMethod: fcitx
+XTerm*utf8Title: True
+XTerm*faceName: Monaco for Powerline:antialias=True:pixelsize:11
+XTerm*boldFont: Monaco for Poweline:antialias=True:style=Bold:pixelsize:11
+XTerm.borderLess: True
+
+URxvt*inputMethod: fcitx
+URxvt.urlLauncher: google-chrome-stable
+URxvt.font:xft: Monaco for Powerline:size=13:style=Regular:antialias=true,xft:文泉驿等宽正黑:size=13:style=Regular:antialias=true
+#URxvt.font:xft: Roboto Mono for Powerline:size=13:style=Regular:antialias=true,xft:文泉驿等宽正黑:size=13:style=Regular:antialias=true
+URxvt.boldfont:xft: Monaco for Powerline:size=13:style=Bold:antialias=true,xft:文泉驿等宽正黑:size=13:style=Bold:antialias=true
+#URxvt.boldfont:xft: Roboto Mono for Powerline:size=13:style=Bold:antialias=true,xft:文泉驿等宽正黑:size=13:style=Bold:antialias=true
+URxvt*cursorUnderline: true
+URxvt*cursorColor: #16A085
+
+! Solarized Theme
+
+#define S_base03        #002b36
+#define S_base02        #073642
+#define S_base01        #586e75
+#define S_base00        #657b83
+#define S_base0         #839496
+#define S_base1         #93a1a1
+#define S_base2         #eee8d5
+#define S_base3         #fdf6e3
+#define S_yellow        #b58900
+#define S_orange        #cb4b16
+#define S_red           #dc322f
+#define S_magenta       #d33682
+#define S_violet        #6c71c4
+#define S_blue          #268bd2
+#define S_cyan          #2aa198
+#define S_green         #859900
+
+*background:            S_base03
+*foreground:            S_base00
+*fading:                50
+*fadeColor:             S_base03
+*cursorColor:           S_base1
+*pointerColorBackground:S_base01
+*pointerColorForeground:S_base1
+
+!! black dark/light
+*color0:                S_base02
+*color8:                S_base03
+
+!! red dark/light
+*color1:                S_red
+*color9:                S_orange
+
+!! green dark/light
+*color2:                S_green
+*color10:               S_base01
+
+!! yellow dark/light
+*color3:                S_yellow
+*color11:               S_base00
+
+!! blue dark/light
+*color4:                S_blue
+*color12:               S_base0
+
+!! magenta dark/light
+*color5:                S_magenta
+*color13:               S_violet
+
+!! cyan dark/light
+*color6:                S_cyan
+*color14:               S_base1
+
+!! white dark/light
+*color7:                S_base2
+*color15:               S_base3
